@@ -26,12 +26,12 @@ services:
     ports:
       - "127.0.0.1:${POSTGRES_PORT:-5435}:5432"
     networks:
-      - postgrocker_eithteen_network
+      - postgrocker_network
 
 
 # Сеть для контейнера Postgrocker 18
 networks:
-  postgrocker_eithteen_network:
+  postgrocker_network:
     driver: bridge
 
 # Именованный volume для данных Postgrocker 18 (персистентные данные)
