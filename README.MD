@@ -27,7 +27,7 @@ git clone https://github.com/SBRDIGITAL/postgrocker_18.git
 ### Шаг 2: Создание файла `.env`
 Перейдите в директорию проекта:
 ```bash
-cd postgrocker_local
+cd postgrocker_18
 ```
 
 Создайте файл `.env` в корневой директории проекта и укажите нужные вам значения переменных:
