@@ -21,7 +21,7 @@
 ### Шаг 1: Клонирование репозитория
 Сначала клонируйте репозиторий на ваш локальный компьютер. Откройте терминал и выполните следующую команду:
 ```bash
-git clone https://github.com/SBRDIGITAL/postgrocker_18_local.git
+git clone https://github.com/SBRDIGITAL/postgrocker_18.git
 ```
 
 ### Шаг 2: Создание файла `.env`
