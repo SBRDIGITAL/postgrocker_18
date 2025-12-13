@@ -1,0 +1,13 @@
+.git
+.gitignore
+.env
+.env.template
+db_logs/
+postgres_data/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+*.log
+*.csv
+.DS_Store

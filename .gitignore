@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Python build/output
+__pycache__/
+*.py[cod]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Environments
+.venv
+.env
+.env.template
+
+# Data/logs
+db_logs/
+postgres_data/
+*.log
+*.csv
