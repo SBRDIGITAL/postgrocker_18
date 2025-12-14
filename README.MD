@@ -56,9 +56,9 @@ sudo bash ./setup_db_logs.sh
 
 ##### НА СЛУЧАЙ ЕСЛИ ТОМ ЛОКАЛЬНЫЙ, ТО НАДО СОЗДАТЬ ДИРЕКТОРИЮ ЗАРАНЕЕ И НАСТРОИТЬ ПРАВА
 ```bash
-mkdir -p ./postgres_data
-sudo chown -R 999:999 ./postgres_data
-sudo chmod -R 755 ./postgres_data
+mkdir -p ./db_logs
+sudo chown -R 999:999 ./db_logs
+sudo chmod -R 755 ./db_logs
 ```
 
 **Важно!** PostgreSQL контейнер работает от пользователя с UID 999, поэтому необходимо дать права этому пользователю на запись в директорию логов.
