@@ -16,7 +16,6 @@ wheels/
 # Environments
 .venv
 .env
-.env.template
 
 # Data/logs
 db_logs/
